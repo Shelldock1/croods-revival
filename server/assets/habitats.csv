@@ -1,0 +1,13 @@
+Habitat,itemType_1,itemCost_1,itemType_2,itemCost_2,itemType_3,itemCost_3,constructTime,productionTime,coinsLvl1,coinsLvl2,coinsLvl3,ConstructionXP,ProductionXP,level2_itemType_1,level2_itemCost_1,level2_itemType_2,level2_itemCost_2,level3_itemType_1,level3_itemCost_1,level3_itemType_2,level3_itemCost_2,level1_productionCap,level2_productionCap,level3_productionCap,level1_productionPerCycle,level2_productionPerCycle,level3_productionPerCycle,level1_feedAmount,level2_feedAmount,level3_feedAmount,upgrade2Time,upgrade3Time,removePrice,removeTime
+HABITAT_MOLERBEAR,Coins,100,-,0,-,0,1,5,5,8,12,20,2,Coins,300,-,0,Coins,900,-,0,16,24,32,3,3,3,3,3,3,5,5,10,0
+HABITAT_GIRELEPHANT,Coins,300,-,0,-,0,10,5,10,16,24,40,4,Coins,900,-,0,Coins,2700,-,0,16,24,32,3,3,3,9,9,9,5,10,10,0
+HABITAT_BUNNY_BEAST,Coins,900,-,0,-,0,30,5,15,24,36,60,6,Coins,2700,-,0,Coins,8100,-,0,16,24,32,3,3,3,6,6,6,15,30,10,0
+HABITAT_CROCOPUP,Coins,2700,-,0,-,0,60,5,20,32,48,80,8,Coins,8100,-,0,Coins,24300,-,0,16,24,32,3,3,3,9,9,9,30,60,10,0
+HABITAT_RAMU,Coins,8100,-,0,-,0,120,5,25,40,60,100,10,Coins,24300,-,0,Coins,72900,-,0,16,24,32,3,3,3,6,6,6,60,120,10,0
+HABITAT_ALBATROCEROS,Coins,8100,-,0,-,0,150,5,30,48,72,120,12,Coins,24300,-,0,Coins,72900,-,0,16,24,32,3,3,3,9,9,9,75,150,10,0
+HABITAT_BEAROWL,Rovios,20,-,0,-,0,105,5,35,56,84,140,14,Rovios,30,-,0,Rovios,50,-,0,50,75,100,5,5,5,2,2,2,52,105,10,0
+HABITAT_SHARKODILE,Coins,24300,-,0,-,0,240,5,40,64,96,160,16,Coins,72900,-,0,Coins,218700,-,0,16,24,32,3,3,3,6,6,6,120,240,10,0
+HABITAT_FISHCAT,Coins,8100,-,0,-,0,180,5,45,72,108,180,18,Coins,24300,-,0,Coins,72900,-,0,16,24,32,3,3,3,9,9,9,90,180,10,0
+HABITAT_ZEAVER,Coins,32400,-,0,-,0,11520,5,50,80,120,200,20,Coins,97200,-,0,Coins,291600,-,0,16,24,32,3,3,3,9,9,9,5760,11520,10,0
+HABITAT_LIYOTE,Coins,24300,-,0,-,0,240,5,55,88,132,220,22,Coins,72900,-,0,Coins,218700,-,0,16,24,32,3,3,3,9,9,9,120,240,10,0
+HABITAT_WALKING_WHALE,Coins,1000,-,0,-,0,60,5,60,96,144,240,24,Coins,3000,-,0,Coins,7875,Sticks,5,50,75,100,10,10,10,4,4,4,30,60,10,0

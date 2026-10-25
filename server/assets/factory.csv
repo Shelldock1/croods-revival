@@ -1,0 +1,3 @@
+Factory,levels,outputResource,outputAmount,outputAmount2,outputAmount3,outputAmount4,productionTime,level2_itemType_1,level2_itemCost_1,level2_itemType_2,level2_itemCost_2,level3_itemType_1,level3_itemCost_1,level3_itemType_2,level3_itemCost_2,level4_itemType_1,level4_itemCost_1,level4_itemType_2,level4_itemCost_2,ProductionXP
+BERRY_BUSH,4,Berries,16,24,38,54,2,Rovios,50,-,0,Rovios,100,-,0,Rovios,200,-,0,3
+BERRY_BUSH_2,4,Berries,16,24,38,54,2,Rovios,50,-,0,Rovios,100,-,0,Rovios,200,-,0,3

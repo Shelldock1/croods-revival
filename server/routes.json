@@ -1,0 +1,193 @@
+{
+ "/identity/2.0/access": {
+  "body": {
+   "accessToken": "offline-token",
+   "expiresIn": 864000,
+   "refreshToken": "offline-refresh",
+   "level1RefreshToken": "offline-refresh",
+   "accountId": "offline-account",
+   "services": {
+    "identityLevel2": {
+     "url": "http://10.0.2.2:8000/identity/2.0",
+     "parameters": {}
+    },
+    "storage": {
+     "url": "http://10.0.2.2:8000/storage",
+     "parameters": {}
+    },
+    "assets": {
+     "url": "http://10.0.2.2:8000/assets",
+     "parameters": {}
+    },
+    "friends": {
+     "url": "http://10.0.2.2:8000/friends",
+     "parameters": {}
+    },
+    "wallet3": {
+     "url": "http://10.0.2.2:8000/wallet3",
+     "parameters": {}
+    },
+    "catalog3": {
+     "url": "http://10.0.2.2:8000/catalog3",
+     "parameters": {}
+    },
+    "push": {
+     "url": "http://10.0.2.2:8000/push",
+     "parameters": {}
+    },
+    "profile": {
+     "url": "http://10.0.2.2:8000/profile",
+     "parameters": {}
+    }
+   }
+  }
+ },
+ "/identity/2.0/config": {
+  "body": {
+   "services": [
+    {
+     "name": "identityLevel2",
+     "id": "identityLevel2",
+     "service": "identityLevel2",
+     "url": "http://10.0.2.2:8000/identityLevel2/",
+     "parameters": {}
+    },
+    {
+     "name": "storage",
+     "id": "storage",
+     "service": "storage",
+     "url": "http://10.0.2.2:8000/storage/",
+     "parameters": {}
+    },
+    {
+     "name": "assets",
+     "id": "assets",
+     "service": "assets",
+     "url": "http://10.0.2.2:8000/assets/",
+     "parameters": {}
+    },
+    {
+     "name": "friends",
+     "id": "friends",
+     "service": "friends",
+     "url": "http://10.0.2.2:8000/friends/",
+     "parameters": {}
+    },
+    {
+     "name": "wallet3",
+     "id": "wallet3",
+     "service": "wallet3",
+     "url": "http://10.0.2.2:8000/wallet3/",
+     "parameters": {}
+    },
+    {
+     "name": "catalog3",
+     "id": "catalog3",
+     "service": "catalog3",
+     "url": "http://10.0.2.2:8000/catalog3/",
+     "parameters": {}
+    },
+    {
+     "name": "push",
+     "id": "push",
+     "service": "push",
+     "url": "http://10.0.2.2:8000/push/",
+     "parameters": {}
+    },
+    {
+     "name": "profile",
+     "id": "profile",
+     "service": "profile",
+     "url": "http://10.0.2.2:8000/profile/",
+     "parameters": {}
+    },
+    {
+     "name": "paymentBroker",
+     "id": "paymentBroker",
+     "service": "paymentBroker",
+     "url": "http://10.0.2.2:8000/paymentBroker/",
+     "parameters": {}
+    },
+    {
+     "name": "socialNetworks",
+     "id": "socialNetworks",
+     "service": "socialNetworks",
+     "url": "http://10.0.2.2:8000/socialNetworks/",
+     "parameters": {}
+    },
+    {
+     "name": "analytics",
+     "id": "analytics",
+     "service": "analytics",
+     "url": "http://10.0.2.2:8000/analytics/",
+     "parameters": {}
+    },
+    {
+     "name": "collector",
+     "id": "collector",
+     "service": "collector",
+     "url": "http://10.0.2.2:8000/collector/",
+     "parameters": {}
+    }
+   ]
+  }
+ },
+ "/confirm/": {
+  "body": {}
+ },
+ "/content/embed/gameList/": {
+  "body": {}
+ },
+ "/identityLevel2/guest/login": {
+  "body": {
+   "accessToken": "offline-token-2",
+   "refreshToken": "offline-refresh-2",
+   "expiresIn": 864000
+  }
+ },
+ "/identityLevel2/guest/register": {
+  "body": {
+   "accessToken": "offline-token-2",
+   "refreshToken": "offline-refresh-2",
+   "expiresIn": 864000
+  }
+ },
+ "/identityLevel2/refresh": {
+  "body": {
+   "accessToken": "offline-token-2",
+   "refreshToken": "offline-refresh-2",
+   "expiresIn": 864000
+  }
+ },
+ "/identityLevel2/upgrade": {
+  "body": {
+   "accessToken": "offline-token-2",
+   "refreshToken": "offline-refresh-2",
+   "expiresIn": 864000
+  }
+ },
+ "/identityLevel2/profile/own": {
+  "body": {
+   "accountId": "offline-account",
+   "email": "offline@localhost",
+   "isConfirmed": "false",
+   "firstName": "Grug",
+   "lastName": "Crood",
+   "birthday": "1990-01-01",
+   "phoneNumber": "",
+   "abid": "offline",
+   "personal": "",
+   "nickname": "Grug",
+   "alias": "Grug"
+  }
+ },
+ "/identityLevel2/time": {
+  "body": {
+   "time": "__NOW__"
+  }
+ },
+ "/storage/state": {
+  "code": 204,
+  "body": ""
+ }
+}

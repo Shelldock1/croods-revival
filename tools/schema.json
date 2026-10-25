@@ -1,0 +1,376 @@
+[
+ {
+  "keyColumn": "Habitat",
+  "separator": ",",
+  "filePath": "habitats.csv",
+  "neededFields": [
+   "itemType_1",
+   "itemCost_1",
+   "itemType_2",
+   "itemCost_2",
+   "itemType_3",
+   "itemCost_3",
+   "constructTime",
+   "productionTime",
+   "coinsLvl1",
+   "coinsLvl2",
+   "coinsLvl3",
+   "ConstructionXP",
+   "ProductionXP",
+   "level2_itemType_1",
+   "level2_itemCost_1",
+   "level2_itemType_2",
+   "level2_itemCost_2",
+   "level3_itemType_1",
+   "level3_itemCost_1",
+   "level3_itemType_2",
+   "level3_itemCost_2",
+   "level1_productionCap",
+   "level2_productionCap",
+   "level3_productionCap",
+   "level1_productionPerCycle",
+   "level2_productionPerCycle",
+   "level3_productionPerCycle",
+   "level1_feedAmount",
+   "level2_feedAmount",
+   "level3_feedAmount",
+   "upgrade2Time",
+   "upgrade3Time",
+   "removePrice",
+   "removeTime"
+  ]
+ },
+ {
+  "keyColumn": "Factory",
+  "separator": ",",
+  "filePath": "factory.csv",
+  "neededFields": [
+   "levels",
+   "outputResource",
+   "outputAmount",
+   "outputAmount2",
+   "outputAmount3",
+   "outputAmount4",
+   "productionTime",
+   "level2_itemType_1",
+   "level2_itemCost_1",
+   "level2_itemType_2",
+   "level2_itemCost_2",
+   "level3_itemType_1",
+   "level3_itemCost_1",
+   "level3_itemType_2",
+   "level3_itemCost_2",
+   "level4_itemType_1",
+   "level4_itemCost_1",
+   "level4_itemType_2",
+   "level4_itemCost_2",
+   "ProductionXP"
+  ]
+ },
+ {
+  "keyColumn": "Decorations",
+  "separator": ",",
+  "filePath": "decos.csv",
+  "neededFields": [
+   "itemType_1",
+   "itemCost_1",
+   "itemType_2",
+   "itemCost_2",
+   "constructTime",
+   "removePrice",
+   "removeTime",
+   "decorationNearbyRadius"
+  ]
+ },
+ {
+  "keyColumn": "ObjectID",
+  "separator": ",",
+  "filePath": "dynamicobjects.csv",
+  "neededFields": [
+   "removePrice",
+   "removeTime",
+   "removeXP",
+   "removeRewardType",
+   "removeRewardAmount"
+  ]
+ },
+ {
+  "keyColumn": "Trap",
+  "separator": ",",
+  "filePath": "traps.csv",
+  "neededFields": [
+   "itemType_1",
+   "itemCost_1",
+   "itemType_2",
+   "itemCost_2",
+   "levelUpResource1",
+   "levelUpResource2",
+   "levels",
+   "currencies",
+   "resourceCount1Lvl1",
+   "resourceCount2Lvl1",
+   "resourceCount1Lvl2",
+   "resourceCount2Lvl2",
+   "resourceCount1Lvl3",
+   "resourceCount2Lvl3",
+   "trappedCreature",
+   "trappingXP",
+   "ConstructionXP",
+   "trapChance0",
+   "trapChance1",
+   "trapChance2",
+   "trapChance3",
+   "defaultTrapTime",
+   "constructTime",
+   "releaseInterest"
+  ]
+ },
+ {
+  "keyColumn": "Creature",
+  "separator": ",",
+  "filePath": "creatureLevelUp.csv",
+  "neededFields": [
+   "feedCurrency",
+   "feedingSessions",
+   "eatingTime",
+   "productionTimeDecrease",
+   "feedPerSession1",
+   "creaturelevelupXP1",
+   "feedPerSession2",
+   "creaturelevelupXP2",
+   "feedPerSession3",
+   "creaturelevelupXP3",
+   "feedPerSession4",
+   "creaturelevelupXP4",
+   "feedPerSession5",
+   "creaturelevelupXP5",
+   "feedPerSession6",
+   "creaturelevelupXP6",
+   "favorableDecoration1",
+   "decorationBoost1",
+   "favorableDecoration2",
+   "decorationBoost2",
+   "favorableDecoration3",
+   "decorationBoost3",
+   "dirtinessIncreaseRatio",
+   "boredomIncreaseRatio",
+   "playBoosts[]",
+   "cleanBoosts[]",
+   "miniPlayCap",
+   "boredomeResource"
+  ]
+ },
+ {
+  "keyColumn": "Level",
+  "separator": ",",
+  "filePath": "xp.csv",
+  "neededFields": [
+   "Points"
+  ]
+ },
+ {
+  "keyColumn": "questName",
+  "filePath": "quests.csv",
+  "neededFields": [
+   "order",
+   "level",
+   "questType",
+   "questGiverType",
+   "description",
+   "itemDefinition",
+   "itemCount",
+   "icon",
+   "rewardType_1",
+   "rewardQuantity_1",
+   "rewardType_2",
+   "rewardQuantity_2",
+   "cameraTarget",
+   "buildMenuTarget",
+   "secondarySpotTarget"
+  ],
+  "namespace": "QUESTS",
+  "separator": ","
+ },
+ {
+  "keyColumn": "CaveLevel",
+  "separator": ",",
+  "filePath": "cave.csv",
+  "neededFields": [
+   "UpgradeCostCoins",
+   "UpgradeCostRovio",
+   "RewardXP",
+   "Carrots",
+   "Sticks",
+   "Mud",
+   "Stones",
+   "Feathers",
+   "Bones",
+   "Fish",
+   "Leaves",
+   "Berries",
+   "Soup",
+   "Eggs",
+   "Fruit"
+  ]
+ },
+ {
+  "keyColumn": "questName",
+  "filePath": "achievements.csv",
+  "neededFields": [
+   "order",
+   "level",
+   "questType",
+   "questGiverType",
+   "description",
+   "itemDefinition",
+   "itemCount",
+   "icon",
+   "rewardType_1",
+   "rewardQuantity_1",
+   "rewardType_2",
+   "rewardQuantity_2",
+   "cameraTarget",
+   "buildMenuTarget"
+  ],
+  "namespace": "QUESTS",
+  "separator": ","
+ },
+ {
+  "separator": ",",
+  "filePath": "levelrewards.csv",
+  "namespace": "LEVELREWARDS",
+  "neededFields": [
+   "Levels",
+   "RewardType",
+   "Quantity"
+  ]
+ },
+ {
+  "keyColumn": "ResourceName",
+  "filePath": "resourceconversiontable.csv",
+  "neededFields": [
+   "ConvertCoin",
+   "ConvertRovio"
+  ],
+  "namespace": "CONVERSIONTABLE",
+  "separator": ","
+ },
+ {
+  "keyColumn": "level",
+  "filePath": "sinkquestdefinitions.csv",
+  "neededFields": [
+   "Carrots",
+   "Sticks",
+   "Stones",
+   "Feathers",
+   "Bones",
+   "Mud",
+   "Fish",
+   "Leaves",
+   "Coins",
+   "Rovios",
+   "Berries",
+   "XP",
+   "Soup",
+   "Eggs",
+   "Fruit"
+  ],
+  "namespace": "SINKQUESTDEFINITIONS",
+  "separator": ","
+ },
+ {
+  "keyColumn": "Event",
+  "separator": ",",
+  "filePath": "creatureEvents.csv",
+  "neededFields": [
+   "spawnFrequency",
+   "lifeTime",
+   "maxCreaturesAtTime"
+  ]
+ },
+ {
+  "keyColumn": "name",
+  "filePath": "miscValues.csv",
+  "neededFields": [
+   "value"
+  ],
+  "namespace": "MISCVALUES",
+  "separator": ","
+ },
+ {
+  "keyColumn": "pack",
+  "filePath": "socialpickup.csv",
+  "neededFields": [
+   "probability",
+   "resourceAmount",
+   "maxDifferentResource",
+   "forcedResource"
+  ],
+  "namespace": "SOCIAL",
+  "separator": ","
+ },
+ {
+  "keyColumn": "Weeks",
+  "separator": ";",
+  "filePath": "dailyBonus.csv",
+  "neededFields": [
+   "Day_1_reward",
+   "Day_1_amount",
+   "Day_2_reward",
+   "Day_2_amount",
+   "Day_3_reward",
+   "Day_3_amount",
+   "Day_4_reward",
+   "Day_4_amount",
+   "Day_5_reward",
+   "Day_5_amount",
+   "Egg_cost_type",
+   "Egg_cost_amount"
+  ]
+ },
+ {
+  "keyColumn": "Key",
+  "filePath": "keys.csv",
+  "neededFields": [
+   "message",
+   "itemType1",
+   "itemType_1",
+   "itemCost_1",
+   "itemType_2",
+   "itemCost_2",
+   "itemType_3",
+   "itemCost_3"
+  ],
+  "namespace": "KEYS",
+  "separator": ";"
+ },
+ {
+  "keyColumn": "pid",
+  "filePath": "iaps.csv",
+  "neededFields": [
+   "currency",
+   "level[]"
+  ],
+  "namespace": "IAP",
+  "separator": ","
+ },
+ {
+  "separator": ",",
+  "filePath": "costcurve.csv",
+  "namespace": "COSTCURVE",
+  "neededFields": [
+   "time",
+   "cost"
+  ]
+ },
+ {
+  "keyColumn": "resource",
+  "filePath": "thunk.csv",
+  "neededFields": [
+   "minamount",
+   "maxamount"
+  ],
+  "namespace": "THUNK",
+  "separator": ","
+ }
+]

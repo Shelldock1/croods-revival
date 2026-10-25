@@ -1,0 +1,13 @@
+Creature,feedCurrency,feedingSessions,eatingTime,productionTimeDecrease,feedPerSession1,creaturelevelupXP1,feedPerSession2,creaturelevelupXP2,feedPerSession3,creaturelevelupXP3,feedPerSession4,creaturelevelupXP4,feedPerSession5,creaturelevelupXP5,feedPerSession6,creaturelevelupXP6,favorableDecoration1,decorationBoost1,favorableDecoration2,decorationBoost2,favorableDecoration3,decorationBoost3,dirtinessIncreaseRatio,boredomIncreaseRatio,playBoosts1,cleanBoosts1,miniPlayCap,boredomeResource
+Molerbear,Berries,3,5,0.05,3,10,5,20,8,30,12,40,18,50,26,60,SKULL_01,0.05,SKULL_01,0.05,SKULL_01,0.05,0.05,0.05,0.05,0.05,0.2,Carrots
+Girelephant,Carrots,3,5,0.05,3,20,5,40,8,60,12,80,18,100,26,120,SKULL_01,0.05,SKULL_01,0.05,SKULL_01,0.05,0.05,0.05,0.05,0.05,0.2,Leaves
+BunnyBeast,Carrots,3,5,0.05,3,30,5,60,8,90,12,120,18,150,26,180,SKULL_01,0.05,SKULL_01,0.05,SKULL_01,0.05,0.05,0.05,0.05,0.05,0.2,Stones
+Crocopup,Carrots,3,5,0.05,3,40,5,80,8,120,12,160,18,200,26,240,SKULL_01,0.05,SKULL_01,0.05,SKULL_01,0.05,0.05,0.05,0.05,0.05,0.2,Bones
+Ramu,Bones,3,5,0.05,6,50,10,100,16,150,24,200,36,250,52,300,SKULL_01,0.05,SKULL_01,0.05,SKULL_01,0.05,0.05,0.05,0.05,0.05,0.2,Eggs
+Albatroceros,Berries,3,5,0.05,6,60,10,120,16,180,24,240,36,300,52,360,SKULL_01,0.05,SKULL_01,0.05,SKULL_01,0.05,0.05,0.05,0.05,0.05,0.2,Feathers
+Bearowl,Berries,3,5,0.05,6,70,10,140,16,210,24,280,36,350,52,420,SKULL_01,0.05,SKULL_01,0.05,SKULL_01,0.05,0.05,0.05,0.05,0.05,0.2,Coins
+Sharkodile,Bones,3,5,0.05,6,80,10,160,16,240,24,320,36,400,52,480,SKULL_01,0.05,SKULL_01,0.05,SKULL_01,0.05,0.05,0.05,0.05,0.05,0.2,Fish
+FishCat,Fish,3,5,0.05,9,90,15,180,24,270,36,360,54,450,78,540,SKULL_01,0.05,SKULL_01,0.05,SKULL_01,0.05,0.05,0.05,0.05,0.05,0.2,Mud
+Zeaver,Berries,3,5,0.05,9,100,15,200,24,300,36,400,54,500,78,600,SKULL_01,0.05,SKULL_01,0.05,SKULL_01,0.05,0.05,0.05,0.05,0.05,0.2,Sticks
+Liyote,Eggs,3,5,0.05,9,110,15,220,24,330,36,440,54,550,78,660,SKULL_01,0.05,SKULL_01,0.05,SKULL_01,0.05,0.05,0.05,0.05,0.05,0.2,Fruit
+WalkingWhale,Carrots,3,5,0.05,9,120,15,240,24,360,36,480,54,600,78,720,SKULL_01,0.05,SKULL_01,0.05,SKULL_01,0.05,0.05,0.05,0.05,0.05,0.2,Coins

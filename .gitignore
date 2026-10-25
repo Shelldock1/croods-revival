@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.idsig
+work/
+
+# personal data: cloud save and emulator logs
+server/saves.json
+server/saves.json.tmp
+logcat.txt
+
+# the game itself is never committed: users bring their own APK
+*.apk
